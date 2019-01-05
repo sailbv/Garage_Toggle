@@ -7,3 +7,13 @@ garage_toggle.py
         sends signals to close it
 '''
 
+def GarageState(*state):
+        ''' maintains state on garage Open or Close'''
+        return GarageState
+
+def closeGarage:
+        ''' sends signals to close garage'''
+        if GARAGE_IS_OPEN and toggleState():
+                return GARAGE_CLOSE
+        else:
+                return 
